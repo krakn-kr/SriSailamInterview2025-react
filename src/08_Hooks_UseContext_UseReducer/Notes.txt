@@ -1,0 +1,14 @@
+When to use
+Why to use
+How to use
+Where to use
+
+1)When to use:
+Passing data from higher ancestors component to lowest component through props 
+is called "prop drilling".
+2)Why to use:
+To avoid prop drilling we use useContext to share data across components
+3)How to use:
+ using useContext Hook
+4)Where to use:
+make our components render inside useContext.Provider
