@@ -8,6 +8,7 @@ import UseMemo from './09_Hooks_UseCallBack_UseRef_UseMemo/UseMemo'
 import UseRef from './09_Hooks_UseCallBack_UseRef_UseMemo/UseRef'
 import Tooltip from './09_Hooks_UseCallBack_UseRef_UseMemo/Tooltip'
 import UseLayout from './09_Hooks_UseCallBack_UseRef_UseMemo/UseLayout'
+import UseCustomHookUse from './10_Hooks_Short_Answers/UseCustomHookUse'
 function App() {
   const buttonRef = useRef(null);
   const [showTooltip, setShowTooltip] = useState(false);
@@ -32,7 +33,8 @@ function App() {
         I'm a tooltip placed with <b>useLayoutEffect</b>!
       </Tooltip>
     </div> */}
-    <UseLayout/>
+    {/* <UseLayout/> */}
+    <UseCustomHookUse/>
     </>
   )
 }
